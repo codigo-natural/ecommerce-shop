@@ -17,7 +17,10 @@ module.exports = {
       height: {
         '80': '20rem',
         '100': '25rem'
-      }
+      },
+      boxShadow: {
+        outline: '0 0 0 3px rgba(147, 197, 253, 0.5)',
+      },
     }
   },
   plugins: [],
