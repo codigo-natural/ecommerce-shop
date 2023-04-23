@@ -9,6 +9,12 @@ module.exports = {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
     },
+    extend: {
+      colors: {
+        'primary': '#f3c614',
+        'secondary': '#353535'
+      }
+    }
   },
   plugins: [],
 }
