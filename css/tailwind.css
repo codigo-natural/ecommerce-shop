@@ -2,15 +2,21 @@
 
 @tailwind components;
 
-@tailwind utilities;
 
-@layer utilities {
-  .rotate-45 {
-    transform: rotate(45deg);
-  }
+.form-control {
+  @apply w-full leading-snug text-gray-500 py-1 px-4 rounded border border-blue-300 bg-gray-200 placeholder-secondary;
 }
-@layer utilities {
-  .zoom {
-    transform: scale(2);
-  }
+.form-control:hover {
+  @apply bg-white;
 }
+.form-control:focus {
+  @apply outline-none shadow-outline;
+}
+.btn {
+  @apply rounded shadow-xl py-1 px-4 bg-yellow-400 mx-auto block;
+}
+.btn:hover {
+  @apply shadow-none bg-yellow-600 text-white;
+}
+
+@tailwind utilities;
