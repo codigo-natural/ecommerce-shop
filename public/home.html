@@ -15,12 +15,39 @@
     />
   </head>
   <body>
-    <div class="px-2 bg-secondary text-white flex justify-between items-center">
-      <div>
-        <img class="h-8 py-1" src="../public//images/logo-w.svg" alt="" />
+    <nav class="bg-secondary text-gray-100">
+      <div class="px-2 bg-secondary text-white flex justify-between items-center">
+        <div>
+          <img class="h-8 py-1" src="../public//images/logo-w.svg" alt="" />
+        </div>
+        <div class="text-2xl">&equiv;</div>
       </div>
-      <div class="text-2xl">&equiv;</div>
-    </div>
+      <div class="mt-1 mx-2 flex items-center">
+        <input type="search" class="form-control pr-10" placeholder="Búsqueda">
+        <div class="absolute right-0 top-auto mb-2.5 font-bold text-yellow-400 mt-2 mr-3">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="py-1 mx-2 flex justify-around">
+        <div class="flex">
+          precio:
+          <div class="ml-2">$</div>
+          <div class="ml-2 text-primary">$$</div>
+          <div class="ml-2">$$$</div>
+          <div class="ml-2">$$$$</div>
+        </div>
+        <div class="flex">
+          <div class="">
+            Calificación
+          </div>
+          <div class="ml-2 text-primary"> &starf; </div>
+          <div class="ml-px text-primary""> &starf; </div>
+          <div class="ml-px text-primary""> &starf; </div>
+          <div class="ml-px text-primary""> &starf; </div>
+          <div class="ml-px"> &star; </div>
+        </div>
+      </div>
+    </nav>
     <main class="mb-4">
       <div
         class="h-56 md:h-100 md:bg-center bg-no-repeat bg-cover bg-bottom"
@@ -80,30 +107,31 @@
           </div>
         </div>
       </div>
-      <form class="container mx-auto mt-4" action="">
-        <h2 class="text-amber-400">Nombre</h2>
-        <input
+        <form class="container mx-auto mt-4" action="">
+          <h1 class="font-semibold text-center">Contactanos</h1>
+          <h2 class="text-amber-400">Nombre</h2>
+          <input
           class="form-control"
           type="text"
           placeholder="Nombre"
-        />
-      </div>
-      <div>
-          <h2 class="text-amber-400">Email</h2>
-          <input class="form-control" type="email" placeholder="Email">
-      </div>
-      <div>
-          <h2 class="text-amber-400">Comentarios</h2>
-          <textarea class="form-control" name="" id="" cols="30" rows="10">
-          </textarea>
-      </div>
-
-      <div>
-          <button class="btn">
+          />
+          <div>
+            <h2 class="text-amber-400">Email</h2>
+            <input class="form-control" type="email" placeholder="Email">
+          </div>
+          <div>
+            <h2 class="text-amber-400">Comentarios</h2>
+            <textarea class="form-control" name="" id="" cols="30" rows="10">
+            </textarea>
+          </div>
+          
+          <div>
+            <button class="btn">
               Enviar 
-          </button>
-      </div>
+            </button>
+          </div>
       </form>
+    </div>
     </main>
     <footer class="w-full text-white bg-secondary">
       <div class="md:flex justify-around md:flex-row-reverse">
