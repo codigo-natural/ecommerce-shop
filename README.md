@@ -26,3 +26,12 @@ Esto inyecta las clases de utilidad de Tailwind y cualquier clase de utilidad re
 
 `@tailwind screens`
 Esta directiva sirve para controlar donde Tailwind inyecta las variaciones responsivas de cada utilidad. Si se omite, Tailwind añadirá estas clases al final de tu css, por defecto.
+
+
+**Recursos externos utilizados:**
+- [alpinejs](https://alpinejs.dev/)
+- [unsplash](https://unsplash.com/es)
+> PurgeCSS : Sirve en Tailwind para quitar el código CSS que no estemos usando.
+- [purgecss](https://purgecss.com/plugins/postcss.html)
+>  Minifica el código CSS para que pese lo menos posible.
+- [nanocss](https://cssnano.co/)

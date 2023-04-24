@@ -616,10 +616,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -636,12 +632,12 @@ video {
   right: 0px;
 }
 
-.top-auto {
-  top: auto;
-}
-
 .top-0 {
   top: 0px;
+}
+
+.top-auto {
+  top: auto;
 }
 
 .z-10 {
